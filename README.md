@@ -29,5 +29,5 @@ Stream Processing by fluent-bit
 ```
 
 # My Problem
-Q. When nginx has nothing to output to logs (no requests), fluent-bit "Stream Processing" do nothing(counting).
+Q. When nginx has nothing to output to logs (no requests), fluent-bit "Stream Processing" do nothing(no count).
    In this case, I wanted to save "0" to influxdb by fluent-bit. What should I do in such a case?
